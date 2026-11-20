@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Average {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        double first = input.nextDouble();
+
+        System.out.print("Enter second number: ");
+        double second = input.nextDouble();
+
+        System.out.print("Enter third number: ");
+        double third = input.nextDouble();
+
+        double average = (first + second + third) / 3;
+
+        System.out.println("Average is: " + average);
+    }
+}
